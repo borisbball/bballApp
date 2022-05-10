@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.FirstPage"
+             xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             NavigationPage.TitleIcon="logo_glava.png"
+             NavigationPage.HasBackButton="False"
+            Title="Welcome">
+    
+    <StackLayout Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="400" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <!--<cv:CarouselViewControl Grid.Row="0" Grid.Column="0" x:Name="carousel"
+                ItemsSource="{Binding MyItemsSource}"
+                ShowArrows="true"
+                ShowIndicators="true"
+                PositionSelectedCommand="{Binding MyCommand}"
+                PositionSelected="Handle_PositionSelected"
+                Scrolled="Handle_Scrolled"
+                Orientation="Horizontal">-->            
+            <cv:CarouselViewControl Grid.Row="0" Grid.Column="0" x:Name="carousel"
+                ShowArrows="true"
+                ShowIndicators="true"
+                PositionSelectedCommand="{Binding MyCommand}"
+                PositionSelected="Handle_PositionSelected"
+                Scrolled="Handle_Scrolled"
+                Orientation="Horizontal">
+
+                <cv:CarouselViewControl.ItemsSource>
+                   <x:Array Type="{x:Type View}">
+                        <ScrollView>
+                            <StackLayout>
+                                <Label Text="Welcome" TextColor="Black" FontSize = "28" FontAttributes="Bold" HorizontalOptions="Center" Margin="10,40,10,0"/>
+                                <Label Text="Welcome to BBall app. Swipe left for quick overview." TextColor="Black" FontSize = "22" HorizontalOptions="Center" Margin="10,20,10,0"/>
+                                <Grid Margin="0,30,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="3*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="90" />
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.Column="1" Source = "ikona_slide1.png" Aspect="AspectFit" />
+                                </Grid>
+                            </StackLayout>
+                        </ScrollView>
+                        <ScrollView>
+                            <StackLayout>
+                                <Label Text="What is BBall" TextColor="Black" FontSize = "28" FontAttributes="Bold" HorizontalOptions="Center" Margin="10,40,10,0"/>
+                                <Label Text="BBall is world ﬁrst smart golf ball. Help you to improve your golf game." TextColor="Black" FontSize = "22" HorizontalOptions="Center" Margin="10,20,10,0"/>
+                                <Grid Margin="0,30,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="3*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="90" />
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.Column="1" Source = "ikona_slide2.png" Aspect="AspectFit" />
+                                </Grid>
+                            </StackLayout>
+                        </ScrollView>
+                        <ScrollView>
+                            <StackLayout>
+                                <Label Text="Swing it! Find it!" TextColor="Black" FontSize = "28" FontAttributes="Bold" HorizontalOptions="Center" Margin="10,40,10,0"/>
+                                <Label Text="Our unique technology help you to ﬁnd BBall golf ball in toughest condition." TextColor="Black" FontSize = "22" HorizontalOptions="Center" Margin="10,20,10,0"/>
+                                <Grid Margin="0,30,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="3*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="90" />
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.Column="1" Source = "ikona_slide3.png" Aspect="AspectFit" />
+                                </Grid>
+                            </StackLayout>
+                        </ScrollView>
+                        <ScrollView>
+                            <StackLayout>
+                                <Label Text="Let BBall do magic for you!" TextColor="Black" FontSize = "28" FontAttributes="Bold" HorizontalOptions="Center" Margin="10,40,10,0"/>
+                                <Label Text="With our app you can easy ﬁnd your lost ball and continue to play without penalty." TextColor="Black" FontSize = "22" HorizontalOptions="Center" Margin="10,20,10,0"/>
+                                <Grid Margin="0,30,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="3*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="90" />
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.Column="1" Source = "ikona_slide4.png" Aspect="AspectFit" />
+                                </Grid>
+                            </StackLayout>
+                        </ScrollView>
+                        <ScrollView>
+                            <StackLayout>
+                                <Label Text="Improve your game!" TextColor="Black" FontSize = "28" FontAttributes="Bold" HorizontalOptions="Center" Margin="10,40,10,0"/>
+                                <Label Text="Let us help you to continually improve your game with additional stats facts." TextColor="Black" FontSize = "22" HorizontalOptions="Center" Margin="10,20,10,0"/>
+                                <Grid Margin="0,30,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="3*" />
+                                        <ColumnDefinition Width="4*" />
+                                        <ColumnDefinition Width="3*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="90" />
+                                    </Grid.RowDefinitions>
+                                    <Image Grid.Row="0" Grid.Column="1" Source = "ikona_slide5.png" Aspect="AspectFit" />
+                                </Grid>
+                            </StackLayout>
+                        </ScrollView>
+                    </x:Array>
+                </cv:CarouselViewControl.ItemsSource>
+
+            </cv:CarouselViewControl>
+            <Label Grid.Row="1" Grid.Column="0"></Label>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" x:Name="_btn_reg" Text="SIGN UP" Clicked="OnRegButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                <Button Grid.Row="1" Grid.Column="0" x:Name="_btn_Login" Text="LOG IN" Clicked="OnLogInButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

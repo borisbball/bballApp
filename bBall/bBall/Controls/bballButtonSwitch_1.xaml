@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Grid  xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.Controls.bballButtonSwitch_1">
+    <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+        <RowDefinition Height="60"/>
+    </Grid.RowDefinitions>
+    <Frame Grid.Row="0" x:Name="_f_ball" CornerRadius="10" Padding="0" BackgroundColor="WhiteSmoke" Margin="0,0,0,0" HasShadow="True">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*" />
+                <ColumnDefinition Width="3*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" x:Name="_lbn_ball" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black" Text="" FontSize="18"/>
+            <Switch Grid.Row="0" Grid.Column="1" x:Name="_sw_1"  BackgroundColor="Transparent" Margin="0,0,0,0" HorizontalOptions="Center" VerticalOptions="Center" IsToggled="False" Toggled="_sw_1_Toggled" />
+            <!--<Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" x:Name="_btn_1" Text="" CornerRadius="10" Padding="0" BackgroundColor="Transparent" Margin="0,0,0,0" Clicked="Button_Clicked" />-->
+        </Grid>
+    </Frame>
+</Grid>

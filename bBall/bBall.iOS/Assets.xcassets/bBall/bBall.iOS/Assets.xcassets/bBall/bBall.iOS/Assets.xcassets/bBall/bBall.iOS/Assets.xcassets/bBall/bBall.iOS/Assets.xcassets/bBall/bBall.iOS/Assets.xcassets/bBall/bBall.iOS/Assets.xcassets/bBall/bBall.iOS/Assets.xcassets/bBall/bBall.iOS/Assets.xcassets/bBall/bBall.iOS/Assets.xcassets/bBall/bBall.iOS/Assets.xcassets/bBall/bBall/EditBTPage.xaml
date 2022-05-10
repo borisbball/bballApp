@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.EditBTPage"
+             NavigationPage.TitleIcon="logo_glava.png"
+            Title="Edit bball">
+    <StackLayout Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="120" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" x:Name="_f_Header" CornerRadius="10" Padding="0" BackgroundColor="WhiteSmoke" Margin="2,2,2,2" HasShadow="True" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" x:Name="_lbn_Header" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black" Text="EDIT BBALL" FontSize="18"/>
+                    <Image Grid.Row="0" Grid.Column="1" x:Name="_img_ball_w" Source="ball_white.png" BackgroundColor="Transparent" />
+                    <!--<Button Grid.Row="0" Grid.ColumnSpan="2" Text="" FontSize = "18" CornerRadius="10" BackgroundColor="Transparent" TextColor="Transparent" IsEnabled="False" Clicked="OnHeadButtonClicked" />-->
+                </Grid>
+            </Frame>
+            <Label Grid.Row="1" Grid.Column="0"></Label>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Text="The original name of the Bball" FontSize="12" VerticalOptions="CenterAndExpand"/>
+                <Editor Grid.Row="1" Grid.Column="0" Text="{Binding acBT_Name}" TextColor="Black" IsEnabled="False" />
+                <Label Grid.Row="2" Grid.Column="0" Text="New name of the ball" FontSize="12" VerticalOptions="CenterAndExpand"/>
+                <Editor Grid.Row="3" Grid.Column="0" Text="{Binding acTitle}" TextColor="Black" />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Button x:Name="_btn_Delete" Grid.Row="0" Grid.Column="0" Text="DELETE" Clicked="OnDeleteButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                <Button x:Name="_btn_Save" Grid.Row="1" Grid.Column="0" Text="SAVE" Clicked="OnSaveButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

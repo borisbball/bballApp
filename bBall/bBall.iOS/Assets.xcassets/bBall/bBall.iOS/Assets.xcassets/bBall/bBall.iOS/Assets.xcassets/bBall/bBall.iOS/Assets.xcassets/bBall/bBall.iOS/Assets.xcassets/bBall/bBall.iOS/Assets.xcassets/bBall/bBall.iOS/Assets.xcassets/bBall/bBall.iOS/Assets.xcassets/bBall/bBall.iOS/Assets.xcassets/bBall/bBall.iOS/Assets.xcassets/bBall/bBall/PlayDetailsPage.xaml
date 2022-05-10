@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.PlayDetailsPage"
+             NavigationPage.TitleIcon="logo_glava.png"
+             NavigationPage.HasBackButton="False"
+            Title="Play Details">
+    <StackLayout Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="90" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" x:Name="_f_Header" CornerRadius="10" Padding="0" BackgroundColor="WhiteSmoke" Margin="2,2,2,2" HasShadow="True" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="7*" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" x:Name="_lbn_Header" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black" Text="EDIT BBALL" FontSize="18"/>
+                    <Image Grid.Row="0" Grid.Column="1" x:Name="_img_ball_w" Source="ball_white.png" BackgroundColor="Transparent" />
+                </Grid>
+            </Frame>
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="100" />
+                    <!--<RowDefinition Height="60" />-->
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+                <Label Text="{Binding Name}" Grid.Row="0" Grid.Column="0" FontAttributes="Bold" FontSize="15" Margin="5,0,0,0" />
+                <Label Text="{Binding Rssi, StringFormat='RSSI: {0}'}" Grid.Row="0" Grid.Column="1" TextColor="Red" HorizontalTextAlignment="Center" Margin="0,0,5,0" />
+                <Label Text="{Binding Uuid, StringFormat='UUID: {0}'}" Grid.Row="1" Grid.ColumnSpan="2" FontSize="12" FontAttributes="Italic" Margin="5,0,0,0" />
+                <Label Text="--------------------" Grid.Row="2" Grid.ColumnSpan="2" FontSize="12" FontAttributes="Italic" Margin="5,0,0,0" />
+                <Label x:Name="_txt_Data" Text="" Grid.Row="3" Grid.ColumnSpan="2" FontSize="14"  Margin="5,0,0,0" />
+            </Grid>
+
+            <Grid Grid.Row="3" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" x:Name="_btn_RedData" Text="Get DATA" Clicked="OnReadDataButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                <Button Grid.Row="0" Grid.Column="1" x:Name="_btn_Close" Text="Close" Clicked="OnCloseButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

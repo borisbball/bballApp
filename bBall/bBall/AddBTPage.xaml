@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.AddBTPage"
+             NavigationPage.HasBackButton="False"
+             Title="Add bballs">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Grid  Padding="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="6*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition>
+                        <RowDefinition.Height>
+                            <OnPlatform x:TypeArguments="GridLength">
+                                <On Platform="iOS">*</On>
+                                <On Platform="Android">48</On>
+                            </OnPlatform>
+                        </RowDefinition.Height>
+                    </RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Column="1" Grid.Row="0" Source="logo_glava.png" HorizontalOptions="Center" VerticalOptions="Center" Margin="5,5,5,5" />
+                <!--<ImageButton Grid.Column="2" Grid.Row="0" Source="ikona_burger_menu_bela.png" HorizontalOptions="End" VerticalOptions="Center" Margin="10,10,5,10" Clicked="OnSettingsClicked" />-->
+                <!--<ImageButton Grid.Column="0" Grid.Row="0" Source="ikona_puscica_levo_bela.png" HorizontalOptions="Start" VerticalOptions="Center" Margin="5,10,10,10" Clicked="OnBackClicked" />-->
+            </Grid>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <StackLayout Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="90" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="350" />
+                <RowDefinition Height="60" />
+            </Grid.RowDefinitions>
+
+            <Frame Grid.Row="0" Grid.Column="0" x:Name="_f_Reg" CornerRadius="10" Padding="0" BackgroundColor="WhiteSmoke" Margin="2,2,2,2" HasShadow="True" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="90"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="60" />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.Column="0" x:Name="_lbn_Header" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black" Text="ADD BBALLS" FontSize="18"/>
+                    <ActivityIndicator Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="30" WidthRequest="30" IsRunning="True" Margin="15,15,15,15"/>
+                    <!--<Button Grid.Row="0" Grid.Column="0" x:Name="_btn_Reg" Text="" FontSize = "18" CornerRadius="10" BackgroundColor="Transparent" TextColor="Transparent" IsEnabled="True" Clicked="OnRegisterButtonClicked" />-->
+                </Grid>
+            </Frame>
+            <!--<controls:bballButtonA Grid.Row="0" Grid.Column="0"  x:Name="_btn_ball" VerticalOptions="Start" CornerRadius="10" Text="Dodajanje žogic" IsBusy="true" ButtonBgColor="WhiteSmoke" 
+                                                        HeightRequest="90" ButtonState ="Busy" SourceArrow="" />-->
+            <Label Grid.Row="1" Grid.Column="0"></Label>
+
+            <ScrollView Grid.Row="2" Grid.Column="0">
+                <StackLayout>
+                    <ListView x:Name="listView" RowHeight="90" MinimumHeightRequest="300" ItemSelected="OnListViewItemSelected" Margin="0,0,0,0" SeparatorVisibility="None">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Frame CornerRadius="10" Padding="0" BackgroundColor="WhiteSmoke" Margin="2,2,2,2" HasShadow="True" >
+                                        <Grid>
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="60"/>
+                                                <RowDefinition Height="30" />
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="7*" />
+                                                <ColumnDefinition Width="3*" />
+                                            </Grid.ColumnDefinitions>
+                                            <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Black" Text="{Binding Name}" FontSize="18" FontAttributes="Bold"/>
+                                            <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Source="ball_blue.png" BackgroundColor="Transparent" />
+                                            <Label Grid.Row="1" Grid.Column="0" Margin="5,0,0,0" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" BackgroundColor="Transparent" TextColor="Red" Text="{Binding TxPower, StringFormat='Distane: {0} m'}" FontSize="12"/>
+                                            <!--<Label Grid.Row="1" Grid.Column="1" VerticalOptions="StartAndExpand" HorizontalOptions="Center" BackgroundColor="Transparent" TextColor="Red" Text="{Binding Rssi, StringFormat='RSSI: {0}'}" FontSize="12"/>-->
+                                            <Button Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" Text="" FontSize = "18" CornerRadius="10" BackgroundColor="Transparent" TextColor="Transparent" IsEnabled="True" Clicked="OnmyBallButtonClicked" CommandParameter="{Binding Uuid}" />
+                                        </Grid>
+                                    </Frame>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+            <Grid Grid.Row="3" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Button x:Name="_btn_Close" Grid.Row="0" Grid.Column="0" Text="Close" Clicked="OnExitButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

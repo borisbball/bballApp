@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:control="clr-namespace:bBall;assembly=bBall"
+             xmlns:controls="clr-namespace:bBall.Controls;Assembly:bBall"
+             x:Class="bBall.HomePage"
+             NavigationPage.TitleIcon="logo_glava.png"
+             NavigationPage.HasBackButton="False"
+             Title="BBall">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="_AppSett" Text="" Icon="ikona_burger_menu_bela.png" Clicked="OnSettingsClicked" />
+    </ContentPage.ToolbarItems>
+    <StackLayout Margin="5">
+        <Grid VerticalOptions="FillAndExpand">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition Height="60" />
+                <RowDefinition Height="20" />
+                <RowDefinition Height="300" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" x:Name="_lbn_Reg" VerticalOptions="Center" HorizontalOptions="Center" BackgroundColor="Transparent" Text="Registracija" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+
+            <!--<controls:bballButtonSwitch Grid.Row="1" Grid.Column="0" x:Name="_btn_BT" Text="Prijava" ClickedButton="OnBTButtonClicked" CornerRadius="10" ButtonBgColor="WhiteSmoke" Margin="2,2,2,2" />-->
+            <controls:bballButtonSwitch_1 Grid.Row="1" Grid.Column="0" x:Name="_btn_BT" Text="Prijava" ToggledSwitch="onToggledSwitch" CornerRadius="10" ButtonBgColor="WhiteSmoke" Margin="2,2,2,2" />
+            
+            <Label Grid.Row="2" Grid.Column="0"></Label>
+            
+            <ScrollView Grid.Row="3" Grid.Column="0" VerticalOptions="FillAndExpand">
+                <StackLayout>
+                    <ListView x:Name="listView_myBalls" RowHeight="90" ItemSelected="OnlistView_myBallsItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="90"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <!--<ImageButton Grid.Row="0" Grid.Column="0" Margin="0,0,-20,0" CornerRadius="10" BackgroundColor="WhiteSmoke" HeightRequest="25" WidthRequest="25" IsEnabled="True" />
+                                        <ImageButton Grid.Row="0" Grid.Column="0" Margin="5,5,5,5" BackgroundColor="Transparent" HeightRequest="25" WidthRequest="25" Source="settings_icon_dark.png" IsEnabled="True" Clicked="OnmyBallSettButtonClicked" CommandParameter="{Binding Id}" />-->
+                                        <controls:bballButtonC Grid.Row="0" Grid.Column="0"  x:Name="_btn_ball" VerticalOptions="Start" CornerRadius="10" Text="{Binding acTitle}" IsBusy="{Binding anIsBusy}" ButtonBgColor="WhiteSmoke" 
+                                                        HeightRequest="90" SourceBusy="ball_white.png" SourceFinde="ball_blue.png" SourceInactive="" SourceButtonLeft ="settings_icon_dark.png"  ButtonState ="{Binding anState}" 
+                                                        SourceArrow="ikona_puscica_desno.png" BallID="{Binding Id}" ClickedButton="OnmyBallButtonClicked" ClickedLeftButton ="OnmyBallSettButtonClicked" Margin="2,2,2,2"/>
+                                    </Grid>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+            <Grid Grid.Row="4" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <!--<Button x:Name="_btn_Play" Grid.Row="0" Grid.Column="0" Text="Igraj" Clicked="OnPlayButtonClicked" IsEnabled="False"/>-->
+                <!--<Button x:Name="_btn_Reg" Grid.Row="0" Grid.Column="1" Text="Registracija" Clicked="OnRegisterButtonClicked" IsEnabled="False" />-->
+                <Button x:Name="_btn_Add" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="ADD BBALL" Clicked="OnAddBTButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                <!--<Button x:Name="_btn_Add" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Dodaj Žogico" Clicked="OnAddBTButtonClicked" IsEnabled="False"/>-->
+                <!--<Button x:Name="_btn_Test1" Grid.Row="1" Grid.Column="1" Text="Test1" Clicked="OnTest1ButtonClicked" IsEnabled="False"/>-->
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

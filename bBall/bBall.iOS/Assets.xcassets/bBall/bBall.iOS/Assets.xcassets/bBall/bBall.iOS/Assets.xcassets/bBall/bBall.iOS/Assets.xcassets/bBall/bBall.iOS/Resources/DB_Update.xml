@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<XML>
+  <SQLScript>
+    <![CDATA[
+      
+CREATE TABLE IF NOT EXISTS myBalls (
+	ID Integer NOT NULL PRIMARY KEY AUTOINCREMENT,
+	acBT_Uuid varchar(100) NOT NULL,
+	acTitle varchar(100) NULL,
+	acBT_Name varchar(100) NULL,
+	adModificationDate datetime DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+#GO#
+CREATE UNIQUE INDEX IF NOT EXISTS "myBalls_id_idx" ON "myBalls"( "acBT_Uuid" );
+
+#GO#
+
+]]>
+  </SQLScript>
+</XML>

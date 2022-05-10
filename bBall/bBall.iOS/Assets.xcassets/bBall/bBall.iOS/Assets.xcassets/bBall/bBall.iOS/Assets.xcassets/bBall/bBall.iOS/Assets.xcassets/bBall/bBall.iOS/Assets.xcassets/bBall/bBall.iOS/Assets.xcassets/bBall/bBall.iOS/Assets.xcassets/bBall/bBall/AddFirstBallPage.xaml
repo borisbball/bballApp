@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.AddFirstBallPage"
+             NavigationPage.TitleIcon="logo_glava.png"
+             NavigationPage.HasBackButton="True"
+             Title="Add bball">
+    <StackLayout Margin="5">
+        <ScrollView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="220" />
+                    <RowDefinition Height="auto" />
+                </Grid.RowDefinitions>
+                <Image Grid.Row="0" Grid.Column="0" x:Name="_img1" Source="ball_blue.png" Margin="20,50,20,10"/>
+                <StackLayout Grid.Row="1" Grid.Column="0">
+                    <Label Text="Add your BBall" TextColor="Black" FontSize = "32" FontAttributes="Bold" HorizontalOptions="Center"/>
+                    <Label Text="Do you want to add your BBall now?" TextColor="Black" FontSize = "20" HorizontalOptions="Center" Margin="0,10,0,0"/>
+                    <Grid Grid.Row="2" Grid.Column="0" Margin="0,20,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="60" />
+                            <RowDefinition Height="60" />
+                        </Grid.RowDefinitions>
+                        <Button Grid.Row="0" Grid.Column="0" x:Name="_btn_yes" Text="YES" Clicked="OnYesButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                        <Button Grid.Row="1" Grid.Column="0" x:Name="_btn_no" Text="NO" Clicked="OnNoButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                    </Grid>
+                    <Grid Grid.Row="3" Grid.Column="0" Margin="0,40,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30" />
+                            <RowDefinition Height="60" />
+                        </Grid.RowDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Text="Don't own a BBall yet?" TextColor="Black" FontSize = "20" HorizontalOptions="Center"/>
+                        <Button Grid.Row="1" Grid.Column="0" x:Name="_btn_buy" Text="BUY NOW" Clicked="OnBuyButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+                    </Grid>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

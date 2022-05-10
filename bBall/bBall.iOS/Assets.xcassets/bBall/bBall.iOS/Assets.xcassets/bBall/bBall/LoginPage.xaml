@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bBall.LoginPage"
+             NavigationPage.TitleIcon="logo_glava.png"
+             NavigationPage.HasBackButton="True"
+            Title="Log In">
+    <StackLayout Margin="5">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300" />
+                <RowDefinition Height="30" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <ScrollView  Grid.Row="0" Grid.Column="0">
+                <StackLayout>
+                    <Label Text="" TextColor="Silver" FontSize = "12"/>
+                    <Entry Text="{Binding acEmail}" x:Name="_txtEmail"  Placeholder="Email" />
+                    <Label Text="" TextColor="Silver" FontSize = "12"/>
+                    <Entry Text="" x:Name="_txtPassword"  Placeholder="Password" IsPassword="True" />
+                </StackLayout>
+            </ScrollView>
+            <Label Grid.Row="1" Grid.Column="0"></Label>
+            <Grid Grid.Row="2" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Button Grid.Row="0" Grid.Column="0" x:Name="_btn_login" Text="LOG IN" Clicked="OnLogInButtonClicked" CornerRadius="10" BackgroundColor="#293335" TextColor="White"/>
+            </Grid>
+        </Grid>
+    </StackLayout>
+</ContentPage>

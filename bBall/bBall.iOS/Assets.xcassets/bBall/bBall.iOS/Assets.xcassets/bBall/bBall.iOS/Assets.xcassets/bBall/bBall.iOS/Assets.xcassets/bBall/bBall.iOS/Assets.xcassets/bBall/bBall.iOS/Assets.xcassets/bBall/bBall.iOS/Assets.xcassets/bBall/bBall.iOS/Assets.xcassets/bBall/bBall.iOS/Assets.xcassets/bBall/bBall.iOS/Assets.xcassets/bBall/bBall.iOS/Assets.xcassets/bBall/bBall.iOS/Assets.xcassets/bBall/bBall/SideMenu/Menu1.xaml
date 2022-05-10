@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<t:SlideMenuView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:t="clr-namespace:SlideOverKit" x:Class="bBall.SideMenu.Menu1">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="90" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />            
+            <RowDefinition Height="1" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />            
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Frame Grid.Row="0" BackgroundColor="LightGray" HasShadow="False" Padding="0,0,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="90" />
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Source="ikona_user.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center" BackgroundColor="Transparent"/>
+                <Label x:Name="_lbnUserName" Text="" Grid.Column="1" Grid.Row="0" XAlign="Start" YAlign="Center" TextColor="Black" BackgroundColor="Transparent" FontAttributes="Bold"/>
+            </Grid>
+        </Frame>
+        <Frame x:Name="_frm_Buymore" Grid.Row="1" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Source="ball_blue.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+                <Label Text="Buy more BBals" Grid.Column="1" Grid.Row="0" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onBuyMoreClick" />
+            </Grid>
+        </Frame>
+        <Frame x:Name="_frm_History" Grid.Row="2" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Source="ikona_history.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+                <Label Text="History" Grid.Column="1" Grid.Row="0" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onHistoryClick" />
+            </Grid>
+        </Frame>
+        <Frame x:Name="_frm_Settings" Grid.Row="3" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Source="settings_icon_dark.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+                <Label Text="Settings" Grid.Column="1" Grid.Row="0" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onSettingsClick" />
+            </Grid>
+        </Frame>
+        <Frame x:Name="_frm_Help" Grid.Row="4" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60" />
+                </Grid.RowDefinitions>
+                <Image Grid.Column="0" Grid.Row="0" Source="settings_icon_dark.png" WidthRequest="25" HeightRequest="25" HorizontalOptions="End" VerticalOptions="Center"/>
+                <Label Text="Help and Feedback" Grid.Column="1" Grid.Row="0" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onHelpClick" />
+            </Grid>
+        </Frame>
+
+
+        <Frame Grid.Row="5" BackgroundColor="Black" HasShadow="False"/>
+
+        <Frame x:Name="_frm_StopPlay" Grid.Row="6" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label Text="Stop Play" Grid.Column="1" Grid.Row="0" FontSize="18" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onStopPlayClicked" />
+            </Grid>
+        </Frame>
+        
+        <Frame x:Name="_frm_Logout" Grid.Row="7" BackgroundColor="WhiteSmoke" HasShadow="False" Padding="0,0,0,0">
+            <Grid Margin="0,0,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="8*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Label Text="Log out" Grid.Column="1" Grid.Row="0" FontSize="18" XAlign="Start" YAlign="Center" TextColor="Black"/>
+                <Button Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="" TextColor="Transparent" BackgroundColor="Transparent" Clicked="onLogOutClicked" />
+            </Grid>
+        </Frame>
+
+
+        
+    </Grid>
+</t:SlideMenuView>

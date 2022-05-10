@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.actool.compilation-results</key>
+	<dict>
+		<key>output-files</key>
+		<array>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/bundle/AppIcon60x60@2x.png</string>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/bundle/AppIcon76x76@2x~ipad.png</string>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/bundle/Assets.car</string>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/partial-info.plist</string>
+		</array>
+	</dict>
+	<key>com.apple.actool.document.notices</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][76x76][][][1x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>76x76@1x app icons only apply to iPad apps targeting releases of iOS prior to 10.0.</string>
+			<key>type</key>
+			<string>Inapplicable Content</string>
+		</dict>
+	</array>
+	<key>com.apple.actool.document.warnings</key>
+	<array>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_burger_menu_bela.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_user.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_user.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_levo_bela.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon80.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide3.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide3.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide5.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide5.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./splash_screen.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "splash_screen" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings_icon_dark.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings_icon_dark.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./polje1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "polje1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings_icon_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings_icon_white.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ball_blue.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ball_blue.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./logo_glava.png.imageset/(null)[2d][logo_glava.png]</string>
+				<string>./logo_glava.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "logo_glava.png" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_levo.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_desno.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide4.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide4.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide2.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide2.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ball_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ball_white.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_mail.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_mail.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_location_history.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_location_history.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_dol.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_dol_1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./splash_screen.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./splash_screen.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "splash_screen" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_burger_menu_bela.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_burger_menu_bela.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol_1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_dol_1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_location_history.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_location_history.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_location_history.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_user.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_user.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_user.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide5.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide5.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide5.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./polje1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./polje1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "polje1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_levo.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide3.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide3.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide3.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings_icon_dark.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_dark.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings_icon_dark.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ball_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_white.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ball_white.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide4.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide4.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide4.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings_icon_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings_icon_white.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings_icon_white.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_levo_bela.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_levo_bela.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_mail.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_mail.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_mail.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ball_blue.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ball_blue.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ball_blue.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide2.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide2.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide2.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_desno.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_desno.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][2x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon80.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./AppIcon.appiconset/[][ipad][40x40][][][1x][][][]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The file "Icon40.png" for the image set "AppIcon" does not exist.</string>
+			<key>type</key>
+			<string>Missing Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./logo_glava.png.imageset/(null)[2d][logo_glava.png]</string>
+				<string>./logo_glava.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./logo_glava.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "logo_glava.png" has 9 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_puscica_dol.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_puscica_dol.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./ikona_slide1.png.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./ikona_slide1.png.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "ikona_slide1.png" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+	</array>
+</dict>
+</plist>

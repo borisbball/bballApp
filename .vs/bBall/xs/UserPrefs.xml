@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{EDFDC085-CA38-4AEB-B862-DEC170442479}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="bBall/bBall/FirstPage.xaml.cs">
+    <Files>
+      <File FileName="bBall/bBall/MainPage.xaml" Line="3" Column="68" />
+      <File FileName="bBall/bBall/LoginPage.xaml" Line="1" Column="1" />
+      <File FileName="bBall/bBall/MainPage.xaml.cs" Line="11" Column="26" />
+      <File FileName="bBall/bBall/obj/Debug/netstandard2.1/MainPage.xaml.g.cs" Line="11" Column="124" />
+      <File FileName="bBall/bBall/App.xaml.cs" Line="14" Column="50" />
+      <File FileName="bBall/bBall/FirstPage.xaml.cs" Line="24" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bBall" expanded="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="bBall.Android" expanded="True" />
+            <Node name="bBall.iOS" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.bBall.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.1cb9a42347c80498c79e08d10136f6f46fd2ef8f" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_AppExtensionDebugSymbolProperties Include="bBall.iOS.app">
+      <NativeExecutable>bBall.iOS</NativeExecutable>
+      <NoDSymUtil>false</NoDSymUtil>
+      <NoSymbolStrip>false</NoSymbolStrip>
+      <SymbolsList>/Users/vorksol/Desktop/golf_boris/bballApp/bballApp/bBall/bBall.iOS/obj/iPhone/Debug/device-builds/ipad4.4-12.4.8/mtouch-symbols.list</SymbolsList>
+    </_AppExtensionDebugSymbolProperties>
+  </ItemGroup>
+</Project>
